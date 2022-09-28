@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-18T09:21:04 IST" name="Suite" finished-at="2022-09-18T09:23:36 IST" duration-ms="151875">
+    <groups>
+    </groups>
+    <test started-at="2022-09-18T09:21:04 IST" name="Test" finished-at="2022-09-18T09:23:36 IST" duration-ms="151875">
+      <class name="dataIntegration.DeleteLead">
+        <test-method is-config="true" signature="setfileName()[pri:0, instance:dataIntegration.DeleteLead@78e4deb0]" started-at="2022-09-18T09:21:16 IST" name="setfileName" finished-at="2022-09-18T09:21:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setfileName -->
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataIntegration.DeleteLead@78e4deb0]" started-at="2022-09-18T09:23:20 IST" name="preCondition" finished-at="2022-09-18T09:23:28 IST" duration-ms="7564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[demoSalesManager]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runDelete(java.lang.String)[pri:0, instance:dataIntegration.DeleteLead@78e4deb0]" started-at="2022-09-18T09:23:28 IST" name="runDelete" data-provider="testData" finished-at="2022-09-18T09:23:36 IST" duration-ms="7734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runDelete -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:dataIntegration.DeleteLead@78e4deb0]" started-at="2022-09-18T09:23:36 IST" name="postCondition" finished-at="2022-09-18T09:23:36 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- dataIntegration.DeleteLead -->
+      <class name="dataIntegration.DuplicateLead">
+        <test-method is-config="true" signature="setfileName()[pri:0, instance:dataIntegration.DuplicateLead@69e153c5]" started-at="2022-09-18T09:21:16 IST" name="setfileName" finished-at="2022-09-18T09:21:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setfileName -->
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataIntegration.DuplicateLead@69e153c5]" started-at="2022-09-18T09:22:49 IST" name="preCondition" finished-at="2022-09-18T09:22:56 IST" duration-ms="7519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[demoSalesManager]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runduplicate(java.lang.String)[pri:0, instance:dataIntegration.DuplicateLead@69e153c5]" started-at="2022-09-18T09:22:56 IST" name="runduplicate" data-provider="testData" finished-at="2022-09-18T09:23:07 IST" duration-ms="10450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runduplicate -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:dataIntegration.DuplicateLead@69e153c5]" started-at="2022-09-18T09:23:07 IST" name="postCondition" finished-at="2022-09-18T09:23:07 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- dataIntegration.DuplicateLead -->
+      <class name="dataIntegration.CreateLead">
+        <test-method is-config="true" signature="setfileName()[pri:0, instance:dataIntegration.CreateLead@7674f035]" started-at="2022-09-18T09:21:04 IST" name="setfileName" finished-at="2022-09-18T09:21:16 IST" duration-ms="12368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setfileName -->
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataIntegration.CreateLead@7674f035]" started-at="2022-09-18T09:22:09 IST" name="preCondition" finished-at="2022-09-18T09:22:21 IST" duration-ms="12298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[demoSalesManager]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runCreate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataIntegration.CreateLead@7674f035]" started-at="2022-09-18T09:22:21 IST" name="runCreate" data-provider="testData" finished-at="2022-09-18T09:22:28 IST" duration-ms="7206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testleaf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreate -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:dataIntegration.CreateLead@7674f035]" started-at="2022-09-18T09:22:28 IST" name="postCondition" finished-at="2022-09-18T09:22:29 IST" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataIntegration.CreateLead@7674f035]" started-at="2022-09-18T09:22:29 IST" name="preCondition" finished-at="2022-09-18T09:22:37 IST" duration-ms="8105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[demoSalesManager]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runCreate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataIntegration.CreateLead@7674f035]" started-at="2022-09-18T09:22:37 IST" name="runCreate" data-provider="testData" finished-at="2022-09-18T09:22:43 IST" duration-ms="6249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vidya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreate -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:dataIntegration.CreateLead@7674f035]" started-at="2022-09-18T09:22:43 IST" name="postCondition" finished-at="2022-09-18T09:22:44 IST" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- dataIntegration.CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
